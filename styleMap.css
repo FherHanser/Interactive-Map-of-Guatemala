@@ -1,0 +1,80 @@
+body {
+    background-color: #ffebcd;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #0332DB;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 5px;
+    font-size: 4rem;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+
+}
+
+footer {
+    background-color: #0332DB;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.mapaDiv {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.mapaDiv path {
+    fill: #87cefa;
+    stroke: #4169e1;
+    stroke-width: 2px;
+    transition: fill 0.1s ease;
+}
+
+.mapaDiv path:hover {
+    fill: #adff2f;
+}
+
+.mapaDiv path.selected {
+    fill: #DB6401 !important; /* Agregar !important para asegurar la prioridad */
+}
+
+
+#infoDepartamento {
+    background-color: #DB6401;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    max-width: 340px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#infoDepartamento h3 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#infoDepartamento p {
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
