@@ -22,7 +22,7 @@ function cargarJSON(url, callback) {
 }
 
 // Llamar a la función cargarJSON con la URL del archivo JSON
-cargarJSON('dataGT.json', function (data) {
+cargarJSON('/dataGT.json', function (data) {
     // Asignar los datos del archivo JSON al objeto departamentosJSON
     departamentosJSON.departamentos = data.departamentos;
     console.log('Datos cargados desde dataGT.json:', departamentosJSON);
